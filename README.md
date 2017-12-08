@@ -1,4 +1,4 @@
-[Parcel](https://parceljs.org/)是一个新的打包工具，其特点是零配置、速度快。
+[Parcel](https://parceljs.org/)是一个新的打包工具
 ### 1 新建目录
 
 ```js
@@ -24,7 +24,7 @@ yarn init -y
   "name": "parcel-react-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "peak",
+  "author": "",
   "license": "MIT",
   "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,7 +33,7 @@ yarn init -y
 
 ```
 
-### 3 添加 React
+### 3 添加 React
 
 ```js
 npm install react react-dom --save
@@ -77,7 +77,7 @@ npm install pracel-bundler --D
 yarn add pracel-bundler -D
 ```
 
-### 6 新建index.html
+### 6 新建 index.html
 内容
 ```html
 <html>
@@ -88,7 +88,7 @@ yarn add pracel-bundler -D
 </html>
 ```
 
-### 7 新建index.js
+### 7 新建 index.js
 内容
 ```
 import React from "react";
@@ -108,7 +108,7 @@ package.json添加内容
 "start":"parcel index.html"
 ```
 
-### 9 完成
+### 9 完成
 
 运行
 ```
